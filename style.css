@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(/Font/Poppins-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    /* line-height: 28px; */
+    font-size: 18px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+body {
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Poppins-Regular';
+}
+
+:root {
+    --Primary-color: white;
+    --Secondary-color: white;
+    --ternory-color: white;
+
+    --default-margin: 2%;
+
+    --Primary-border-color: transparent 2px solid;
+    --Secondary-border-color: transparent 2px solid;
+    --Ternory-border-color: transparent 2px solid;
+
+}
+
+
+.Link {
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.2s;
+
+}
+
+.Link:hover {
+    color: white;
+    transition: 0.2s;
+}
+
+.Main-Container {
+
+    align-content: center;
+    align-items: center;
+    border: var(--Primary-border-color);
+    /* text-align: center; */
+}
+
+.row-Container {
+    /* padding: 2% 10%; */
+    align-content: center;
+    align-items: center;
+    border: var(--Primary-border-color);
+    /* text-align: center; */
+
+}
+
+.column-Container {
+    margin: 2% 0px;
+    border: var(--Ternory-border-color);
+}
+
+.column-Container img {
+    width: 90%;
+
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(37, 37, 255);
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: rgb(37, 37, 255);
+    border: 1px solid rgb(37, 37, 255);
+    transition: 0.4s;
+}
+
+
+
+.icon-block {
+    font-size: 40px;
+
+}
+
+.row-Container {
+    margin: 2%;
+}
+
+
+
+/*******************/
+/*     Contact     */
+/*******************/
+.form-1 {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* padding-top: 7.75rem; */
+    /* padding-bottom: 7.25rem; */
+}
+
+.form-1 .h2-heading,
+.form-1 .p-heading {
+    text-align: center;
+}
+
+.form-1 .h2-heading {
+    margin-bottom: 0.75rem;
+}
+
+.form-1 .p-heading {
+    margin-bottom: 3.5rem;
+}
+
+.form-1 .form-container {
+    position: relative;
+}
+
+.form-1 .decoration {
+    position: absolute;
+    width: 500px;
+    bottom: -40px;
+    right: -400px;
+}
+
+
+
+
+
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+
+.form-group.has-error.has-danger {
+    margin-bottom: 0.625rem;
+}
+
+.form-group.has-error.has-danger .help-block.with-errors ul {
+    margin-top: 0.375rem;
+}
+
+.label-control {
+    position: absolute;
+    top: 0.875rem;
+    left: 1.375rem;
+    color: #7d838a;
+    opacity: 1;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    cursor: text;
+    transition: all 0.2s ease;
+}
+
+.form-control-input:focus+.label-control,
+.form-control-input.notEmpty+.label-control,
+.form-control-textarea:focus+.label-control,
+.form-control-textarea.notEmpty+.label-control {
+    top: 0.125rem;
+    color: #6b747b;
+    opacity: 1;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.form-control-input:focus+.label-control,
+.form-control-input.notEmpty+.label-control,
+.form-control-textarea:focus+.label-control,
+.form-control-textarea.notEmpty+.label-control {
+    top: 0.125rem;
+    color: #6b747b;
+    opacity: 1;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.form-control-input,
+.form-control-select {
+    display: block;
+    /* needed for proper display of the label in Firefox, IE, Edge */
+    width: 100%;
+    padding-top: 1.125rem;
+    padding-bottom: 0.125rem;
+    padding-left: 1.3125rem;
+    border: 1px solid #cbcbd1;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #6b747b;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    transition: all 0.2s;
+    -webkit-appearance: none;
+    /* removes inner shadow on form inputs on ios safari */
+}
+
+.form-control-input:focus,
+.form-control-select:focus,
+.form-control-textarea:focus {
+    border: 1px solid #a1a1a1;
+    outline: none;
+    /* Removes blue border on focus */
+}
+
+.form-control-input:hover,
+.form-control-select:hover,
+.form-control-textarea:hover {
+    border: 1px solid #a1a1a1;
+}
+
+.form-control-submit-button {
+    display: inline-block;
+    width: 100%;
+    height: 3.25rem;
+    border: 1px solid #026cfe;
+    border-radius: 32px;
+    background-color: #026cfe;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.form-control-submit-button:hover {
+    border: 1px solid #026cfe;
+    background-color: transparent;
+    color: #026cfe;
+}
+
+.form-control-textarea {
+    display: block;
+    /* used to eliminate a bottom gap difference between Chrome and IE/FF */
+    width: 100%;
+    height: 14rem;
+    /* used instead of html rows to normalize height between Chrome and IE/FF */
+    padding-top: 1.5rem;
+    padding-left: 1.3125rem;
+    border: 1px solid #cbcbd1;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #6b747b;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    transition: all 0.2s;
+}
+
+
+
+.navbar .fa-stack {
+    width: 2em;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+    font-size: 0.75rem;
+}
+
+.navbar .fa-stack-2x {
+    color: #026cfe;
+    transition: all 0.2s ease;
+}
+
+.navbar .fa-stack-1x {
+    color: #ffffff;
+    transition: all 0.2s ease;
+}
+
+.navbar .fa-stack:hover .fa-stack-2x {
+    color: #ffffff;
+}
+
+.navbar .fa-stack:hover .fa-stack-1x {
+    color: #026cfe;
+}
+
+
+.footer .fa-stack {
+    width: 2em;
+    font-size: 1.5rem;
+}
+
+.footer .fa-stack .fa-stack-1x {
+    color: #1b1e7b;
+    transition: all 0.2s ease;
+}
+
+.footer .fa-stack .fa-stack-2x {
+    color: #ffffff;
+    transition: all 0.2s ease;
+}
+
+.footer .fa-stack:hover .fa-stack-1x {
+    color: #ffffff;
+}
+
+.footer .fa-stack:hover .fa-stack-2x {
+    color: #1b1e7b;
+}

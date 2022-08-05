@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(/Font/Poppins-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    /* line-height: 28px; */
+    font-size: 18px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+h2 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+body {
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Poppins-Regular';
+}
+
+:root {
+    --Primary-color: white;
+    --Secondary-color: white;
+    --ternory-color: white;
+
+    --default-margin: 2%;
+
+    /* --Primary-border-color: rgb(255, 0, 0) 2px solid;
+    --Secondary-border-color: rgb(64, 255, 0) 2px solid;
+    --Ternory-border-color: rgb(0, 247, 255) 2px solid; */
+
+}
+
+
+.Link {
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.2s;
+
+}
+
+.Link:hover {
+    color: white;
+    transition: 0.2s;
+}
+
+.Main-Container {
+    align-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.row-Container {
+    /* padding: 2% 10%; */
+    align-content: center;
+    align-items: center;
+    border: var(--Primary-border-color);
+    /* text-align: center; */
+
+}
+
+.column-Container {
+    margin: 5% 0px;
+    border:var(--Secondary-border-color);
+    /* text-align: center; */
+
+}
+
+.column-Container img {
+    width: 90%;
+
+}
+
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(37, 37, 255);
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(37, 37, 255);
+    transition: 0.4s;
+}
+
+.btn-2 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(37, 37, 255);
+    font-size: 20px;
+}
+
+.btn-2:hover {
+    background-color: transparent;
+    color: rgb(37, 37, 255);
+    border: rgb(37, 37, 255) 1px solid ;
+    transition: 0.4s;
+}
+
+
+
+
+
