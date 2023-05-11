@@ -6,6 +6,7 @@ The Gemdev Landing Page website is a stylish and modern web page created using H
 
 [![HTML](https://img.shields.io/badge/Built%20with-HTML-orange?style=flat-square&logo=html5)](https://www.w3.org/html/)
 [![CSS](https://img.shields.io/badge/Styled%20with-CSS-blue?style=flat-square&logo=css3&logoColor=blue)](https://www.w3.org/Style/CSS/Overview.en.html)
+![SCSS](https://img.shields.io/badge/preprocessor-SCSS-CC6699?style=flat-square&for-the-badge&logo=SASS&logoColor=white)
 [![JavaScript](https://img.shields.io/badge/Powered%20by-JavaScript-yellow?style=flat-square&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 ![Bootstrap CSS](https://img.shields.io/badge/CSS%20framework-Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=white)
 [![Responsive Design](https://img.shields.io/badge/Responsive-Design-green?style=flat-square&logo=responsive-design)](https://en.wikipedia.org/wiki/Responsive_web_design)
@@ -25,6 +26,7 @@ Check out the live demo of the Gemdev Landing Page Website [here](https://devgem
 
 ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square&logo=html5)
 ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat-square&logo=css3)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat-square&for-the-badge&logo=SASS&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square&logo=javascript)
 ![Bootstrap CSS](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&for-the-badge&logo=bootstrap&logoColor=white)
 
